@@ -13,7 +13,6 @@ fclean:
 	@clear
 	@echo Sto cancellando...
 	@-rm -f $(name)
-	@rm -rf *.replace
 	@sleep 0.4
 	@echo Fatto ✓
 

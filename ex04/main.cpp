@@ -23,8 +23,8 @@ std::string replaceSubstring(const std::string& line, const std::string& search,
 
 int main(int argc, char **argv) {
     if (argc != 4) {
-        std::cerr << "Il numero di argomenti non è corretto!" << std::endl;
-        std::cerr << "Uso corretto: " << argv[0] << " <nome_file> <cerca> <sostituisci>" << std::endl;
+        std::cout << "Il numero di argomenti non è corretto!" << std::endl;
+        std::cout << "Uso corretto: " << argv[0] << " <nome_file> <cerca> <sostituisci>" << std::endl;
         return 1;
     }
 
@@ -34,7 +34,7 @@ int main(int argc, char **argv) {
 
     std::ifstream inputFile(filename.c_str());
     if (!inputFile.is_open()) {
-        std::cerr << "Errore nell'apertura del file di input: " << filename << std::endl;
+        std::cout << "Errore nell'apertura del file di input: " << filename << std::endl;
         return 1;
     }
 
