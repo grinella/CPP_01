@@ -1,6 +1,6 @@
 flags = -Wall -Wextra -Werror -std=c++98
 
-name=replace
+name=Harl_2
 
 all:
 	@clear

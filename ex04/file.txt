@@ -1,26 +1,42 @@
-Chapter VII
-
-Exercise 04: Sed is for losers
-
-Exercise : 04
-
-Sed is for losers
-
-Turn-in directory : ex04/
-
-Files to turn in : Makefile, main.cpp, *.cpp, *.{h, hpp}
-
-Forbidden functions : std::string::replace
-
-Create a program that takes three parameters in the following order: a filename and
-two strings, s1 and s2.
-
-It will open the file <filename> and copies its content into a new file
-<filename>.replace, replacing every occurrence of s1 with s2.
-
-Using C file manipulation functions is forbidden and will be considered cheating. All
-the member functions of the class std::string are allowed, except replace. Use them
-wisely!
-
-Of course, handle unexpected inputs and errors. You have to create and turn in your
-own tests to ensure your program works as expected.
+Ese amor llega así, esta manera
+No tiene la culpa
+Caballo de danza vana
+Porque es muy despreciado por eso
+No te perdondo llorar
+Ese amor llega así, esta manera
+No tiene la culpa
+Amor de compra y venta
+Amor de en el pasado
+Ben-de-lein, ben-de-lein, ben-de-lein
+Bein, ben-de-lein, ben-de-lein
+Bamboleio, bamboleia
+Porque mi vida yo la prefiero vivir así
+Bamboleio, bamboleia
+Porque mi vida yo la prefiero vivir así
+No tenés perdón de Dios
+Tú eres mi vida la fortuna del destino
+En el destino del desamparado
+Lo mismo ya que ayer
+Lo mismo soy yo
+No te encuentro el abandon'
+Era imposible, no te encuentro de verdad
+Por eso un día no encuentro si de nada
+Lo mismo ya que ayer
+Lo pienso en ti
+Bamboleio, bamboleia
+Porque mi vida yo la prefiero vivir así
+Bamboleio, bamboleia
+Porque mi vida yo la prefiero vivir así
+Bamboleio, bamboleia
+Porque mi vida yo la prefiero vivir así
+Bamboleio, bamboleia
+Porque mi vida yo la prefiero vivir así
+Bamboleio, bamboleia
+Porque mi vida yo la prefiero vivir así
+Bamboleio, bamboleia
+Porque mi vida yo la prefiero vivir así
+Bamboleio, bamboleia
+Porque mi vida yo la prefiero vivir así
+Bamboleio, bamboleia
+Porque mi vida yo la prefiero
+Vivir así
