@@ -2,7 +2,7 @@
 #include <fstream>
 #include <string>
 #include <cstdlib>
-#include <stdlib.h>
+#include <cstdlib>
 
 std::string replaceSubstring(const std::string& line, const std::string& search, const std::string& replace) {
     if (search.empty()) {

@@ -2,7 +2,7 @@
 
 #include <iostream>
 #include <string>
-#include <stdlib.h>
+#include <cstdlib>
 
 class Weapon {
     private:

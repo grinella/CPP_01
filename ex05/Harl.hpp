@@ -2,7 +2,6 @@
 #include <fstream>
 #include <string>
 #include <cstdlib>
-#include <stdlib.h>
 
 class Harl;
 typedef void (Harl::*HarlPointer) (void);

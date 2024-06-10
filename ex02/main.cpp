@@ -1,6 +1,6 @@
 #include <iostream>
 #include <string>
-#include <stdlib.h>
+#include <cstdlib>
 
 int main() {
     std::string str = "HI THIS IS BRAIN";
