@@ -2,15 +2,15 @@
 
 Harl::Harl() {
     std::cout << "Costruttore Harl ✓" << std::endl;
-    _command[0] = "DEBUG";
-    _command[1] = "INFO";
-    _command[2] = "WARNING";
-    _command[3] = "ERROR";
+    // _command[0] = "DEBUG";
+    // _command[1] = "INFO";
+    // _command[2] = "WARNING";
+    // _command[3] = "ERROR";
 
-    _input[0] = &Harl::_debug;
-    _input[1] = &Harl::_info;
-    _input[2] = &Harl::_warning;
-    _input[3] = &Harl::_error;
+    // _input[0] = &Harl::_debug;
+    // _input[1] = &Harl::_info;
+    // _input[2] = &Harl::_warning;
+    // _input[3] = &Harl::_error;
 }
 
 Harl::~Harl() {
@@ -34,6 +34,8 @@ void Harl::_error(void) {
 }
 
 void Harl::complain(std::string level) {
+    HarlPointer _input[] = {&Harl::_debug, &Harl::_info, &Harl::_warning, &Harl::_error};
+    std::string _command[] = {"DEBUG", "INFO", "WARNING", "ERROR"};  
     for (int i = 0; i < 4; i++) {
         if (_command[i] == level) {
             (this->*_input[i])();

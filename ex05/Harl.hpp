@@ -14,8 +14,6 @@ class Harl {
         void _info(void);
         void _warning(void);
         void _error(void);
-        std::string _command[4];
-        HarlPointer _input[4];
 
     public:
         Harl();
